@@ -1,3 +1,9 @@
+## Help Contribute to Team-Rocket!<br>
+git clone git@github.com:jleemur/Team-Rocket.git<br>
+cd Team-Rocket<br>
+npm install<br>
+npm start<br><br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
