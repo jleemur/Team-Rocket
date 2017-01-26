@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
-//import Search from './Search.js';
+import Search from './Search.js';
 
 import logo from './logo.svg';
 
@@ -23,10 +23,13 @@ class App extends Component {
         </div>
         <div className="Tabs">
           <Tabs id="TabManager" defaultActiveKey={this.props.selectedTab}>
-            <Tab eventKey={1} title="Find a player">Tab 1</Tab>
-            <Tab eventKey={2} title="Car stats">Tab 2</Tab>
-            <Tab eventKey={3} title="Crate stats">Tab 3</Tab>
+            <Tab eventKey={1} title="Find a player"></Tab>
+            <Tab eventKey={2} title="Car stats"></Tab>
+            <Tab eventKey={3} title="Crate stats"></Tab>
           </Tabs>
+        </div>
+        <div className="Search-bar">
+          <Search/>
         </div>
         <div className="App-body">
         </div>
