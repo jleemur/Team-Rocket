@@ -16,8 +16,8 @@ class Search extends Component {
   render() {
     return (
         <div className="Search">
-          <p><input type="text" placeholder="Search for a player" onChange={this.handleChange} />
-          <p>{this.state.value} />
+          <p><input type="text" placeholder="Search for a player" onChange={this.handleChange} /></p>
+          <p>{this.state.value} </p>
         </div>
     );
   }

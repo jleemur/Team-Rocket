@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TabContainer, Tabs, Tab } from 'react-bootstrap'
+import { Tabs, Tab } from 'react-bootstrap'
 
 class TabManager extends Component {
   render() {
