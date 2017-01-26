@@ -5,14 +5,6 @@ import Search from './Search.js';
 import logo from './logo.svg';
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {selectedTab: 1}
-  }
-
-  handleTabChange(newTab) {
-    this.setState({selectedTab: newTab})
-  }
 
   render() {
     return (
