@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img className="Banner" src={require('./img/RL-Banner2.png')} />
+          <img className="Banner" src={require('./img/RL-Banner2.png')} role="presentation" />
         </div>
         <div className="Tabs">
           <Tabs id="TabManager">
