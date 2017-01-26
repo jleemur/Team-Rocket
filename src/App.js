@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
 import Search from './Search.js';
-
 import logo from './logo.svg';
+import banner from './RL-Banner2.png';
 
 class App extends Component {
 
@@ -10,12 +10,13 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to Team Rocket!</h2>
+          <img src={banner} className="Banner"/>
         </div>
         <div className="Tabs">
           <Tabs id="TabManager" defaultActiveKey={this.props.selectedTab}>
-            <Tab eventKey={1} title="Find a player"> <Search/> </Tab>
+            <Tab eventKey={1} title="Find a player">
+              <Search/>
+            </Tab>
             <Tab eventKey={2} title="Car stats"></Tab>
             <Tab eventKey={3} title="Crate stats"></Tab>
           </Tabs>
