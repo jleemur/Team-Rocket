@@ -16,7 +16,9 @@ class App extends Component {
             <Tab eventKey={1} title="Find a player">
               <Search/>
             </Tab>
-            <Tab eventKey={2} title="Car stats"></Tab>
+            <Tab eventKey={2} title="Car stats">
+
+            </Tab>
             <Tab eventKey={3} title="Crate stats">
               <Crates/>
             </Tab>
