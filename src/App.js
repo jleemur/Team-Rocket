@@ -15,15 +15,10 @@ class App extends Component {
         </div>
         <div className="Tabs">
           <Tabs id="TabManager" defaultActiveKey={this.props.selectedTab}>
-            <Tab eventKey={1} title="Find a player"></Tab>
+            <Tab eventKey={1} title="Find a player"> <Search/> </Tab>
             <Tab eventKey={2} title="Car stats"></Tab>
             <Tab eventKey={3} title="Crate stats"></Tab>
           </Tabs>
-        </div>
-        <div className="Search-bar">
-          <Search/>
-        </div>
-        <div className="App-body">
         </div>
       </div>
     );
