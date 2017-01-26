@@ -21,8 +21,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to Team Rocket!</h2>
         </div>
-        <div className="App-body">
+        <div className="Nav">
           <TabManager selectedTab={this.state.selectedTab}/>
+        </div>
+        <div className="Search-bar">
+          <Search />
+        </div>
+        <div className="App-Body">
         </div>
       </div>
     );

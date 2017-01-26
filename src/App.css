@@ -14,6 +14,16 @@
   color: white;
 }
 
+.Nav {
+  background-color: #222;
+  height: 42px;
+  color: white;
+}
+
+.Search-bar {
+  align-items: right;
+}
+
 .App-intro {
   font-size: large;
 }
