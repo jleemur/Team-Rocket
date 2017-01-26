@@ -4,7 +4,7 @@ class Search extends Component {
   //Self-note: pls learn what this does
   constructor(props) {
     super(props)
-    this.state= {value: ""}
+    this.state = {value: ""}
 
     this.handleChange = this.handleChange.bind(this);
   }
@@ -15,9 +15,9 @@ class Search extends Component {
 
   render() {
     return (
-        <div className="Search-player">
-          <p><input type="text" placeholder="Search for a player" onChange={this.handleChange} /></p>
-          <p>{this.state.value}</p>
+        <div className="Search">
+          <p><input type="text" placeholder="Search for a player" onChange={this.handleChange} />
+          <p>{this.state.value} />
         </div>
     );
   }
