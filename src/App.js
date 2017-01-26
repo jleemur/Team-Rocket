@@ -21,6 +21,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to Team Rocket!</h2>
         </div>
+<<<<<<< HEAD
         <div className="Nav">
           <TabManager selectedTab={this.state.selectedTab}/>
         </div>
@@ -28,6 +29,8 @@ class App extends Component {
           <Search />
         </div>
         <div className="App-Body">
+=======
+>>>>>>> origin/master
         </div>
       </div>
     );
