@@ -3,7 +3,13 @@ import { Grid, Row, Col } from 'react-bootstrap';
 
 class Crates extends Component {
 
-
+/*
+TO DO:
+- Find & save common, uncommon, rare, epic drop imgs:
+  - Get list of all rocket league items... search & download pngs from: https://rocketleague.market/home
+- Load all imgs into an array. Each img has different attributes: (name, droppedFrom, quality, etc.)
+  - Would this be slow on a website? How to speed it up? My vision is to be able to search and filter through items
+*/
   render() {
     return (
         <Grid fluid={true}>
