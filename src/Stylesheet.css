@@ -20,3 +20,19 @@
   background-color: #222;
   height: 42px;
 }
+
+.col1 {
+  background-color: orange;
+}
+
+.col2 {
+  background-color: yellow;
+}
+
+.col3 {
+  background-color: purple;
+}
+
+.col4 {
+  background-color: green;
+}
