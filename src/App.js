@@ -19,7 +19,7 @@ class App extends Component {
             <Tab eventKey={2} title="Car stats">
 
             </Tab>
-            <Tab eventKey={3} title="Items">
+            <Tab eventKey={3} title="Crate stats">
               <Crates/>
             </Tab>
           </Tabs>

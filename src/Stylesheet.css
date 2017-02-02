@@ -21,18 +21,14 @@
   height: 42px;
 }
 
-.col1 {
-  background-color: orange;
+.Crate-header{
+  background-color: #222;
+  align:left;
+  color: white;
 }
 
-.col2 {
-  background-color: yellow;
-}
-
-.col3 {
-  background-color: purple;
-}
-
-.col4 {
-  background-color: green;
+.Crate-body{
+  background-color: #222;
+  color: white;
+  margin: 0px;
 }
