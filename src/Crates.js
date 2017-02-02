@@ -19,7 +19,7 @@ TO DO:
             <img src={require('./img/cc1/cc1.png')} role="navigation" />
           </Col>
           <Clearfix>Champions Crate 1</Clearfix>
-          <Col sm={8} md={0}>
+          <Col sm={16} md={16}>
             <img src={require('./img/cc2/cc2.png')} role="presentation" />
           </Col>
           <Clearfix>Champions Crate 2</Clearfix>
