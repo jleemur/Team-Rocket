@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Col, Row, Clearfix } from 'react-bootstrap';
+import Search from './Search.js'
 
 class Crates extends Component {
 
