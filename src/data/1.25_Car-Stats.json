@@ -1,0 +1,734 @@
+{
+  "1.25 Hit Boxes": [
+    {
+      "Hit Boxes": "Aftershock",
+      "Length": "127.9268",
+      "Width": "83.27995",
+      "Height": "31.30000",
+      "Surface Area": " 34,529.0176 ",
+      "File Name": "Body_Aftershock_SF"
+    },
+    {
+      "Hit Boxes": "Backfire",
+      "Length": "117.1566",
+      "Width": "84.67036",
+      "Height": "31.39440",
+      "Surface Area": " 32,511.8556 ",
+      "File Name": "Body_Backfire_SF"
+    },
+    {
+      "Hit Boxes": "Batmobile",
+      "Length": "128.8198",
+      "Width": "84.67036",
+      "Height": "29.39440",
+      "Surface Area": " 34,365.2680 ",
+      "File Name": "Body_Darkcar_SF"
+    },
+    {
+      "Hit Boxes": "Breakout",
+      "Length": "131.4924",
+      "Width": "76.36520",
+      "Height": "30.30000",
+      "Surface Area": " 32,679.0574 ",
+      "File Name": "Body_Force_SF",
+      "Import File Name": "Body_CarCar_SF"
+    },
+    {
+      "Hit Boxes": "DeLorean",
+      "Length": "128.4418",
+      "Width": "79.28105",
+      "Height": "31.30000",
+      "Surface Area": " 33,369.4519 ",
+      "File Name": "Body_GreyCar_SF"
+    },
+    {
+      "Hit Boxes": "Dominus",
+      "Length": "127.9268",
+      "Width": "83.27995",
+      "Height": "31.30000",
+      "Surface Area": " 34,529.0176 ",
+      "File Name": "Body_MuscleCar_SF",
+      "Import File Name": "Body_MuscleCar2_SF"
+    },
+    {
+      "Hit Boxes": "Esper",
+      "Length": "123.3045",
+      "Width": "77.25884",
+      "Height": "34.15907",
+      "Surface Area": " 32,754.8396 ",
+      "File Name": "Body_NeoBike_SF"
+    },
+    {
+      "Hit Boxes": "Gizmo",
+      "Length": "118.7400",
+      "Width": "80.76671",
+      "Height": "36.16797",
+      "Surface Area": " 33,611.9837 ",
+      "File Name": "Body_Spark_SF"
+    },
+    {
+      "Hit Boxes": "Grog",
+      "Length": "119.4957",
+      "Width": "81.87707",
+      "Height": "36.92777",
+      "Surface Area": " 34,440.4103 ",
+      "File Name": "Body_WastelandTruck_SF"
+    },
+    {
+      "Hit Boxes": "Hotshot",
+      "Length": "130.8947",
+      "Width": "80.76885",
+      "Height": "31.80000",
+      "Surface Area": " 34,606.2306 ",
+      "File Name": "Body_Torment_SF"
+    },
+    {
+      "Hit Boxes": "Marauder",
+      "Length": "118.6854",
+      "Width": "84.80424",
+      "Height": "36.49319",
+      "Surface Area": " 34,982.0225 ",
+      "File Name": "Body_Marauder_SF"
+    },
+    {
+      "Hit Boxes": "Masamune",
+      "Length": "128.4526",
+      "Width": "79.68611",
+      "Height": "31.00047",
+      "Surface Area": " 33,376.5717 ",
+      "File Name": "Body_NeoCar_SF"
+    },
+    {
+      "Hit Boxes": "Merc",
+      "Length": "119.9868",
+      "Width": "77.97530",
+      "Height": "40.26958",
+      "Surface Area": " 34,655.7147 ",
+      "File Name": "Body_Vanquish_SF"
+    },
+    {
+      "Hit Boxes": "Octane",
+      "Length": "118.0074",
+      "Width": "84.19941",
+      "Height": "36.15907",
+      "Surface Area": " 34,495.5273 ",
+      "File Name": "Body_Octane_SF",
+      "Import File Name": "Body_O2_SF"
+    },
+    {
+      "Hit Boxes": "Paladin",
+      "Length": "127.2314",
+      "Width": "82.89344",
+      "Height": "29.80000",
+      "Surface Area": " 33,616.7373 ",
+      "File Name": "Body_Orion_SF"
+    },
+    {
+      "Hit Boxes": "Proteus",
+      "Length": "118.0074",
+      "Width": "84.19941",
+      "Height": "36.15907",
+      "Surface Area": " 34,495.5273 ",
+      "File Name": "Body_Number6_SF"
+    },
+    {
+      "Hit Boxes": "Ripper",
+      "Length": "127.5825",
+      "Width": "79.09612",
+      "Height": "33.43038",
+      "Surface Area": " 34,001.2511 ",
+      "File Name": "Body_Interceptor_SF"
+    },
+    {
+      "Hit Boxes": "Road Hog",
+      "Length": "120.5614",
+      "Width": "81.20138",
+      "Height": "37.15907",
+      "Surface Area": " 34,574.1386 ",
+      "File Name": "Body_Rhino_SF",
+      "Import File Name": "Body_Rhino2_SF"
+    },
+    {
+      "Hit Boxes": "Scarab",
+      "Length": "114.9007",
+      "Width": "82.74691",
+      "Height": "37.66797",
+      "Surface Area": " 33,905.3243 ",
+      "File Name": "Body_Scarab_SF"
+    },
+    {
+      "Hit Boxes": "Takumi",
+      "Length": "118.4945",
+      "Width": "83.27252",
+      "Height": "36.30000",
+      "Surface Area": " 34,382.9569 ",
+      "File Name": "Body_Import_SF",
+      "Import File Name": "body_takumi_ii_SF"
+    },
+    {
+      "Hit Boxes": "Triton",
+      "Length": "119.0058",
+      "Width": "82.24719",
+      "Height": "36.30000",
+      "Surface Area": " 34,186.7524 ",
+      "File Name": "body_cannonboy_SF"
+    },
+    {
+      "Hit Boxes": "Venom",
+      "Length": "127.6995",
+      "Width": "81.88242",
+      "Height": "31.80000",
+      "Surface Area": " 34,242.0983 ",
+      "File Name": "Body_Venom_SF"
+    },
+    {
+      "Hit Boxes": "Vulcan",
+      "Length": "118.0074",
+      "Width": "84.19941",
+      "Height": "36.15907",
+      "Surface Area": " 34,495.5273 ",
+      "File Name": "body_gilliam_SF"
+    },
+    {
+      "Hit Boxes": "X-Devil",
+      "Length": "127.9268",
+      "Width": "83.27995",
+      "Height": "31.30000",
+      "Surface Area": " 34,529.0176 ",
+      "File Name": "Body_Torch_SF",
+      "Import File Name": "Body_Torch2_SF"
+    },
+    {
+      "Hit Boxes": "Zippy",
+      "Length": "118.0074",
+      "Width": "84.19941",
+      "Height": "33.15907",
+      "Surface Area": " 33,282.2864 ",
+      "File Name": "Body_Zippy_SF"
+    },
+    {
+      "Hit Boxes": "Average:",
+      "Length": "123.0702",
+      "Width": "81.9241",
+      "Height": "33.8880",
+      "Surface Area": "34024.7434",
+      "File Name": "These hitboxes are only for ball interactions",
+      "Import File Name": "Updated and maintained by /u/Varixai since v1.11"
+    },
+    {
+      "Hit Boxes": "Range:",
+      "Length": "16.5917",
+      "Width": "8.4390",
+      "Height": "10.8752",
+      "Surface Area": "2470.1669"
+    },
+    {
+      "Import File Name": "Original v1.10 spreadsheet & values by /u/Altimor"
+    }
+  ],
+  "1.25 HB Ranks": [
+    {
+      "Hit Box Ranking": "Aftershock",
+      "Length": "6",
+      "Width": "8",
+      "Height": "18",
+      "Surface Area": "5"
+    },
+    {
+      "Hit Box Ranking": "Backfire",
+      "Length": "23",
+      "Width": "2",
+      "Height": "17",
+      "Surface Area": "24"
+    },
+    {
+      "Hit Box Ranking": "Batmobile",
+      "Length": "3",
+      "Width": "2",
+      "Height": "24",
+      "Surface Area": "12"
+    },
+    {
+      "Hit Box Ranking": "Breakout",
+      "Length": "1",
+      "Width": "24",
+      "Height": "22",
+      "Surface Area": "23"
+    },
+    {
+      "Hit Box Ranking": "DeLorean",
+      "Length": "5",
+      "Width": "20",
+      "Height": "18",
+      "Surface Area": "20"
+    },
+    {
+      "Hit Box Ranking": "Dominus",
+      "Length": "6",
+      "Width": "8",
+      "Height": "18",
+      "Surface Area": "5"
+    },
+    {
+      "Hit Box Ranking": "Esper",
+      "Length": "11",
+      "Width": "23",
+      "Height": "12",
+      "Surface Area": "22"
+    },
+    {
+      "Hit Box Ranking": "Gizmo",
+      "Length": "16",
+      "Width": "18",
+      "Height": "8",
+      "Surface Area": "18"
+    },
+    {
+      "Hit Box Ranking": "Grog",
+      "Length": "14",
+      "Width": "15",
+      "Height": "4",
+      "Surface Area": "10"
+    },
+    {
+      "Hit Box Ranking": "Hotshot",
+      "Length": "2",
+      "Width": "17",
+      "Height": "15",
+      "Surface Area": "3"
+    },
+    {
+      "Hit Box Ranking": "Marauder",
+      "Length": "17",
+      "Width": "1",
+      "Height": "5",
+      "Surface Area": "1"
+    },
+    {
+      "Hit Box Ranking": "Masamune",
+      "Length": "4",
+      "Width": "19",
+      "Height": "21",
+      "Surface Area": "19"
+    },
+    {
+      "Hit Box Ranking": "Merc",
+      "Length": "13",
+      "Width": "22",
+      "Height": "1",
+      "Surface Area": "2"
+    },
+    {
+      "Hit Box Ranking": "Octane",
+      "Length": "19",
+      "Width": "4",
+      "Height": "9",
+      "Surface Area": "7"
+    },
+    {
+      "Hit Box Ranking": "Paladin",
+      "Length": "10",
+      "Width": "11",
+      "Height": "23",
+      "Surface Area": "17"
+    },
+    {
+      "Hit Box Ranking": "Proteus",
+      "Length": "19",
+      "Width": "4",
+      "Height": "9",
+      "Surface Area": "7"
+    },
+    {
+      "Hit Box Ranking": "Ripper",
+      "Length": "9",
+      "Width": "21",
+      "Height": "13",
+      "Surface Area": "15"
+    },
+    {
+      "Hit Box Ranking": "Road Hog",
+      "Length": "12",
+      "Width": "16",
+      "Height": "3",
+      "Surface Area": "4"
+    },
+    {
+      "Hit Box Ranking": "Scarab",
+      "Length": "24",
+      "Width": "12",
+      "Height": "2",
+      "Surface Area": "16"
+    },
+    {
+      "Hit Box Ranking": "Takumi",
+      "Length": "18",
+      "Width": "10",
+      "Height": "6",
+      "Surface Area": "11"
+    },
+    {
+      "Hit Box Ranking": "Triton",
+      "Length": "15",
+      "Width": "13",
+      "Height": "6",
+      "Surface Area": "14"
+    },
+    {
+      "Hit Box Ranking": "Venom",
+      "Length": "8",
+      "Width": "14",
+      "Height": "15",
+      "Surface Area": "13"
+    },
+    {
+      "Hit Box Ranking": "Vulcan",
+      "Length": "19",
+      "Width": "4",
+      "Height": "9",
+      "Surface Area": "7"
+    },
+    {
+      "Hit Box Ranking": "X-Devil",
+      "Length": "6",
+      "Width": "8",
+      "Height": "18",
+      "Surface Area": "5"
+    },
+    {
+      "Hit Box Ranking": "Zippy",
+      "Length": "19",
+      "Width": "4",
+      "Height": "14",
+      "Surface Area": "21"
+    },
+    {
+      "Hit Box Ranking": "(lower # = larger hit box)"
+    }
+  ],
+  "1.25 Turn Speeds": [
+    {
+      "Turning Speed": "Aftershock",
+      "0% Boosting": "2.364627",
+      "100% Boosting": "2.075170",
+      "Average": "2.2198985"
+    },
+    {
+      "Turning Speed": "Backfire",
+      "0% Boosting": "2.358313",
+      "100% Boosting": "2.024510",
+      "Average": "2.1914115"
+    },
+    {
+      "Turning Speed": "Batmobile",
+      "0% Boosting": "2.377534",
+      "100% Boosting": "2.053953",
+      "Average": "2.2157435",
+      "Notes": "higher value = tighter turn"
+    },
+    {
+      "Turning Speed": "Breakout",
+      "0% Boosting": "2.374295",
+      "100% Boosting": "2.083253",
+      "Average": "2.2287740"
+    },
+    {
+      "Turning Speed": "DeLorean",
+      "0% Boosting": "2.355015",
+      "100% Boosting": "2.031308",
+      "Average": "2.1931615"
+    },
+    {
+      "Turning Speed": "Dominus",
+      "0% Boosting": "2.381345",
+      "100% Boosting": "2.084136",
+      "Average": "2.2327405",
+      "Notes": "These rotational velocity values are generated by the game itself, then read from memory (RAM) by an external program."
+    },
+    {
+      "Turning Speed": "Esper",
+      "0% Boosting": "2.337295",
+      "100% Boosting": "2.034185",
+      "Average": "2.1857400"
+    },
+    {
+      "Turning Speed": "Gizmo",
+      "0% Boosting": "2.348015",
+      "100% Boosting": "2.045213",
+      "Average": "2.1966140"
+    },
+    {
+      "Turning Speed": "Grog",
+      "0% Boosting": "2.364116",
+      "100% Boosting": "2.017844",
+      "Average": "2.1909800"
+    },
+    {
+      "Turning Speed": "Hotshot",
+      "0% Boosting": "2.378606",
+      "100% Boosting": "2.095085",
+      "Average": "2.2368455"
+    },
+    {
+      "Turning Speed": "Marauder",
+      "0% Boosting": "2.358303",
+      "100% Boosting": "2.015414",
+      "Average": "2.1868585"
+    },
+    {
+      "Turning Speed": "Masamune",
+      "0% Boosting": "2.406401",
+      "100% Boosting": "2.093303",
+      "Average": "2.2498520"
+    },
+    {
+      "Turning Speed": "Merc",
+      "0% Boosting": "2.370560",
+      "100% Boosting": "1.976070",
+      "Average": "2.1733150"
+    },
+    {
+      "Turning Speed": "Octane",
+      "0% Boosting": "2.365267",
+      "100% Boosting": "2.013627",
+      "Average": "2.1894470"
+    },
+    {
+      "Turning Speed": "Paladin",
+      "0% Boosting": "2.355494",
+      "100% Boosting": "2.046345",
+      "Average": "2.2009195",
+      "Notes": "Vulcan added v1.25"
+    },
+    {
+      "Turning Speed": "Proteus",
+      "0% Boosting": "2.370290",
+      "100% Boosting": "2.012125",
+      "Average": "2.1912075"
+    },
+    {
+      "Turning Speed": "Ripper",
+      "0% Boosting": "2.387065",
+      "100% Boosting": "2.072150",
+      "Average": "2.2296075",
+      "Notes": "Last updated for all cars:"
+    },
+    {
+      "Turning Speed": "Road Hog",
+      "0% Boosting": "2.364635",
+      "100% Boosting": "2.018307",
+      "Average": "2.1914710",
+      "Notes": "v1.24"
+    },
+    {
+      "Turning Speed": "Scarab",
+      "0% Boosting": "2.348870",
+      "100% Boosting": "2.014265",
+      "Average": "2.1815675"
+    },
+    {
+      "Turning Speed": "Takumi",
+      "0% Boosting": "2.366744",
+      "100% Boosting": "2.020642",
+      "Average": "2.1936930"
+    },
+    {
+      "Turning Speed": "Triton",
+      "0% Boosting": "2.361835",
+      "100% Boosting": "2.020265",
+      "Average": "2.1910500",
+      "Notes": "Updated and maintained by /u/Varixai since v1.11"
+    },
+    {
+      "Turning Speed": "Venom",
+      "0% Boosting": "2.353566",
+      "100% Boosting": "2.061694",
+      "Average": "2.2076300"
+    },
+    {
+      "Turning Speed": "Vulcan",
+      "0% Boosting": "2.320685",
+      "100% Boosting": "1.953140",
+      "Average": "2.1369125"
+    },
+    {
+      "Turning Speed": "X-Devil",
+      "0% Boosting": "2.390870",
+      "100% Boosting": "2.100776",
+      "Average": "2.2458230"
+    },
+    {
+      "Turning Speed": "Zippy",
+      "0% Boosting": "2.359244",
+      "100% Boosting": "1.989763",
+      "Average": "2.1745035"
+    },
+    {
+      "Turning Speed": "Average:",
+      "0% Boosting": "2.364760",
+      "100% Boosting": "2.038102",
+      "Average": "2.2014307"
+    },
+    {
+      "Turning Speed": "Range:",
+      "0% Boosting": "0.085716",
+      "100% Boosting": "0.147636",
+      "Average": "0.112939"
+    }
+  ],
+  "1.25 Turn Ranks": [
+    {
+      "Turn Speed Ranking": "Aftershock",
+      "0% Boosting": "13",
+      "100% Boosting": "6",
+      "Average": "7"
+    },
+    {
+      "Turn Speed Ranking": "Backfire",
+      "0% Boosting": "17",
+      "100% Boosting": "14",
+      "Average": "15"
+    },
+    {
+      "Turn Speed Ranking": "Batmobile",
+      "0% Boosting": "6",
+      "100% Boosting": "9",
+      "Average": "8"
+    },
+    {
+      "Turn Speed Ranking": "Breakout",
+      "0% Boosting": "7",
+      "100% Boosting": "5",
+      "Average": "6"
+    },
+    {
+      "Turn Speed Ranking": "DeLorean",
+      "0% Boosting": "20",
+      "100% Boosting": "13",
+      "Average": "13"
+    },
+    {
+      "Turn Speed Ranking": "Dominus",
+      "0% Boosting": "4",
+      "100% Boosting": "4",
+      "Average": "4"
+    },
+    {
+      "Turn Speed Ranking": "Esper",
+      "0% Boosting": "24",
+      "100% Boosting": "12",
+      "Average": "21"
+    },
+    {
+      "Turn Speed Ranking": "Gizmo",
+      "0% Boosting": "23",
+      "100% Boosting": "11",
+      "Average": "11"
+    },
+    {
+      "Turn Speed Ranking": "Grog",
+      "0% Boosting": "14",
+      "100% Boosting": "18",
+      "Average": "18"
+    },
+    {
+      "Turn Speed Ranking": "Hotshot",
+      "0% Boosting": "5",
+      "100% Boosting": "2",
+      "Average": "3"
+    },
+    {
+      "Turn Speed Ranking": "Marauder",
+      "0% Boosting": "18",
+      "100% Boosting": "19",
+      "Average": "20"
+    },
+    {
+      "Turn Speed Ranking": "Masamune",
+      "0% Boosting": "1",
+      "100% Boosting": "3",
+      "Average": "1"
+    },
+    {
+      "Turn Speed Ranking": "Merc",
+      "0% Boosting": "8",
+      "100% Boosting": "24",
+      "Average": "24"
+    },
+    {
+      "Turn Speed Ranking": "Octane",
+      "0% Boosting": "11",
+      "100% Boosting": "21",
+      "Average": "19"
+    },
+    {
+      "Turn Speed Ranking": "Paladin",
+      "0% Boosting": "19",
+      "100% Boosting": "10",
+      "Average": "10"
+    },
+    {
+      "Turn Speed Ranking": "Proteus",
+      "0% Boosting": "9",
+      "100% Boosting": "22",
+      "Average": "16"
+    },
+    {
+      "Turn Speed Ranking": "Ripper",
+      "0% Boosting": "3",
+      "100% Boosting": "7",
+      "Average": "5"
+    },
+    {
+      "Turn Speed Ranking": "Road Hog",
+      "0% Boosting": "12",
+      "100% Boosting": "17",
+      "Average": "14"
+    },
+    {
+      "Turn Speed Ranking": "Scarab",
+      "0% Boosting": "22",
+      "100% Boosting": "20",
+      "Average": "22"
+    },
+    {
+      "Turn Speed Ranking": "Takumi",
+      "0% Boosting": "10",
+      "100% Boosting": "15",
+      "Average": "12"
+    },
+    {
+      "Turn Speed Ranking": "Triton",
+      "0% Boosting": "15",
+      "100% Boosting": "16",
+      "Average": "17"
+    },
+    {
+      "Turn Speed Ranking": "Venom",
+      "0% Boosting": "21",
+      "100% Boosting": "8",
+      "Average": "9"
+    },
+    {
+      "Turn Speed Ranking": "Vulcan",
+      "0% Boosting": "25",
+      "100% Boosting": "25",
+      "Average": "25"
+    },
+    {
+      "Turn Speed Ranking": "X-Devil",
+      "0% Boosting": "2",
+      "100% Boosting": "1",
+      "Average": "2"
+    },
+    {
+      "Turn Speed Ranking": "Zippy",
+      "0% Boosting": "16",
+      "100% Boosting": "23",
+      "Average": "23"
+    },
+    {
+      "Turn Speed Ranking": "(lower # = tighter turn)"
+    }
+  ]
+}
