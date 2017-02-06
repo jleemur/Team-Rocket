@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
 import Search from './Search.js';
-import Crates from './Crates.js'
+import Cars from './Cars.js';
+import Crates from './Crates.js';
 
 class App extends Component {
 
@@ -17,7 +18,7 @@ class App extends Component {
               <Search/>
             </Tab>
             <Tab eventKey={2} title="Car stats">
-
+              <Cars/>
             </Tab>
             <Tab eventKey={3} title="Crate stats">
               <Crates/>
