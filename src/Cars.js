@@ -18,6 +18,7 @@ class Cars extends Component {
 
   render() {
     console.log(hitbox[0])
+    // testing git
     // console.log(hitbox_rank)
     // console.log(turn)
     // console.log(turn_rank)
