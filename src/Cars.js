@@ -21,7 +21,7 @@ class Cars extends Component {
     // testing git
     // console.log(hitbox_rank)
     // console.log(turn)
-    // console.log(turn_rank)
+    // console.log(turn_rank)fdsafdsa
 
     return (
         <div className="Cars">
