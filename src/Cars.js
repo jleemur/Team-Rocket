@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-bootstrap';
+import { Grid, Row, Well, Button } from 'react-bootstrap';
 import Car from './Car.js'
 
 //xlsx source: https://drive.google.com/file/d/0B0GvVmzA91-FR3BabDJGYjFaWlU/view
@@ -13,6 +13,8 @@ class Cars extends Component {
     this.state = {
       cars: []
     }
+
+    this.changeOrder = this.changeOrder.bind(this)
   }
 
   componentWillMount() {
@@ -48,10 +50,20 @@ class Cars extends Component {
     return cars
   }
 
+  changeOrder() {
+    this.setState({
+      cars: []
+    })
+  }
+
   render() {
     return (
           <Grid fluid={true} className="Cars">
-            <br/>
+            <Row className="Cars-header">
+              <Well>
+                <Button onClick={this.changeOrder}>Order</Button>
+              </Well>
+            </Row>
             {this.state.cars.map(function(currentCar) {
               return <Car car={currentCar} key={currentCar["Car"]}/>
             })}
