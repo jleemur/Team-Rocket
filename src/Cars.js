@@ -24,26 +24,26 @@ class Cars extends Component {
       var car = []
       car["Num"] = i
       car["Car"] = hitbox[i]["Hit Boxes"].toString()
-      car["Length"] = parseFloat(hitbox[i]["Length"], 10)
-      car["Width"] = parseFloat(hitbox[i]["Width"], 10)
-      car["Height"] = parseFloat(hitbox[i]["Height"], 10)
-      car["Surface Area"] = parseFloat(hitbox[i]["Surface Area"], 10)
-      car["Turning Avg"] = parseFloat(turning[i]["Average"], 10)
-      car["Turning 0"] = parseFloat(turning[i]["0% Boosting"], 10)
-      car["Turning 100"] = parseFloat(turning[i]["100% Boosting"], 10)
-      car["Length Rank"] = parseInt(hitbox_rank[i]["Length"], 10)
-      car["Width Rank"] = parseInt(hitbox_rank[i]["Width"], 10)
-      car["Height Rank"] = parseInt(hitbox_rank[i]["Height"], 10)
-      car["Surface Area Rank"] = parseInt(hitbox_rank[i]["Surface Area"], 10)
-      car["Turning Avg Rank"] = parseInt(turning_rank[i]["Average"], 10)
-      car["Turning 0 Rank"] = parseInt(turning_rank[i]["0% Boosting"], 10)
-      car["Turning 100 Rank"] = parseInt(turning_rank[i]["100% Boosting"], 10)
+      car["Length"] = hitbox[i]["Length"]
+      car["Width"] = hitbox[i]["Width"]
+      car["Height"] = hitbox[i]["Height"]
+      car["Surface Area"] = hitbox[i]["Surface Area"]
+      car["Turning Avg"] = turning[i]["Average"]
+      car["Turning 0"] = turning[i]["0% Boosting"]
+      car["Turning 100"] = turning[i]["100% Boosting"]
+      car["Length Rank"] = hitbox_rank[i]["Length"]
+      car["Width Rank"] = hitbox_rank[i]["Width"]
+      car["Height Rank"] = hitbox_rank[i]["Height"]
+      car["Surface Area Rank"] = hitbox_rank[i]["Surface Area"]
+      car["Turning Avg Rank"] = turning_rank[i]["Average"]
+      car["Turning 0 Rank"] = turning_rank[i]["0% Boosting"]
+      car["Turning 100 Rank"] = turning_rank[i]["100% Boosting"]
       cars.push(car)
     }
     return cars
   }
 
-  orderBy(string) {
+  orderCarsBy(string) {
     this.state.cars.sort(function (a,b) {
       return a[string] - b[string]
     })
@@ -51,23 +51,23 @@ class Cars extends Component {
   }
 
   render() {
-    var buttons = (
+    var orderButtons = (
       <ButtonGroup>
-        <Button onClick={() => this.orderBy("Num")}>Name</Button>
-        <Button onClick={() => this.orderBy("Length Rank")}>Length</Button>
-        <Button onClick={() => this.orderBy("Width Rank")}>Width</Button>
-        <Button onClick={() => this.orderBy("Height Rank")}>Height</Button>
-        <Button onClick={() => this.orderBy("Surface Area Rank")}>Surface Area</Button>
-        <Button onClick={() => this.orderBy("Turning Avg Rank")}>Turning Avg</Button>
-        <Button onClick={() => this.orderBy("Turning 0 Rank")}>Turning 0</Button>
-        <Button onClick={() => this.orderBy("Turning 100 Rank")}>Turning 100</Button>
+        <Button onClick={() => this.orderCarsBy("Num")}>Name</Button>
+        <Button onClick={() => this.orderCarsBy("Length Rank")}>Length</Button>
+        <Button onClick={() => this.orderCarsBy("Width Rank")}>Width</Button>
+        <Button onClick={() => this.orderCarsBy("Height Rank")}>Height</Button>
+        <Button onClick={() => this.orderCarsBy("Surface Area Rank")}>Surface Area</Button>
+        <Button onClick={() => this.orderCarsBy("Turning Avg Rank")}>Turning Avg</Button>
+        <Button onClick={() => this.orderCarsBy("Turning 0 Rank")}>Turning 0</Button>
+        <Button onClick={() => this.orderCarsBy("Turning 100 Rank")}>Turning 100</Button>
       </ButtonGroup>
     )
 
     return (
           <Grid fluid={true} className="Cars">
             <Row className="Cars-header">
-              <Well>Order by: {buttons}</Well>
+              <Well>Order by: {orderButtons}</Well>
             </Row>
             {this.state.cars.map(function(currentCar) {
               return <Car car={currentCar} key={currentCar["Car"]}/>
