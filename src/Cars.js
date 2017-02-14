@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Grid } from 'react-bootstrap';
+import Car from './Car.js'
 
 //xlsx source: https://drive.google.com/file/d/0B0GvVmzA91-FR3BabDJGYjFaWlU/view
 //Convert xlsx to json using https://convertexcel.net/excel-to-json
@@ -9,49 +11,50 @@ class Cars extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: []
+      cars: []
     }
   }
 
   componentWillMount() {
-    // load data arrays before component mounts
-    var data = this.mergeData(carStats["1.25 Hit Boxes"], carStats["1.25 HB Ranks"],
+    // load cars arrays before component mounts
+    var cars = this.mergeData(carStats["1.25 Hit Boxes"], carStats["1.25 HB Ranks"],
                               carStats["1.25 Turn Speeds"], carStats["1.25 Turn Ranks"])
     this.setState({
-      data: data
+      cars: cars
     });
   }
 
   mergeData(hitbox, hitbox_rank, turning, turning_rank) {
-    var data = []
+    var cars = []
     for (var i=0; i<NUM_CARS; i++) {
-      var temp = []
-      temp["Car"] = hitbox[i]["Hit Boxes"].toString()
-      temp["Length"] = parseFloat(hitbox[i]["Length"], 10)
-      temp["Width"] = parseFloat(hitbox[i]["Width"], 10)
-      temp["Height"] = parseFloat(hitbox[i]["Height"], 10)
-      temp["Surface Area"] = parseFloat(hitbox[i]["Surface Area"], 10)
-      temp["Length Rank"] = parseInt(hitbox_rank[i]["Length"], 10)
-      temp["Width Rank"] = parseInt(hitbox_rank[i]["Width"], 10)
-      temp["Height Rank"] = parseInt(hitbox_rank[i]["Height"], 10)
-      temp["Surface Area Rank"] = parseInt(hitbox_rank[i]["Surface Area"], 10)
-      temp["Turning Avg"] = parseFloat(turning[i]["Average"], 10)
-      temp["Turning 0"] = parseFloat(turning[i]["0% Boosting"], 10)
-      temp["Turning 100"] = parseFloat(turning[i]["100% Boosting"], 10)
-      temp["Turning Avg Rank"] = parseInt(turning_rank[i]["Average"], 10)
-      temp["Turning 0 Rank"] = parseInt(turning_rank[i]["0% Boosting"], 10)
-      temp["Turning 100 Rank"] = parseInt(turning_rank[i]["100% Boosting"], 10)
-      data.push(temp)
+      var car = []
+      car["Car"] = hitbox[i]["Hit Boxes"].toString()
+      car["Length"] = parseFloat(hitbox[i]["Length"], 10)
+      car["Width"] = parseFloat(hitbox[i]["Width"], 10)
+      car["Height"] = parseFloat(hitbox[i]["Height"], 10)
+      car["Surface Area"] = parseFloat(hitbox[i]["Surface Area"], 10)
+      car["Turning Avg"] = parseFloat(turning[i]["Average"], 10)
+      car["Turning 0"] = parseFloat(turning[i]["0% Boosting"], 10)
+      car["Turning 100"] = parseFloat(turning[i]["100% Boosting"], 10)
+      car["Length Rank"] = parseInt(hitbox_rank[i]["Length"], 10)
+      car["Width Rank"] = parseInt(hitbox_rank[i]["Width"], 10)
+      car["Height Rank"] = parseInt(hitbox_rank[i]["Height"], 10)
+      car["Surface Area Rank"] = parseInt(hitbox_rank[i]["Surface Area"], 10)
+      car["Turning Avg Rank"] = parseInt(turning_rank[i]["Average"], 10)
+      car["Turning 0 Rank"] = parseInt(turning_rank[i]["0% Boosting"], 10)
+      car["Turning 100 Rank"] = parseInt(turning_rank[i]["100% Boosting"], 10)
+      cars.push(car)
     }
-    return data
+    return cars
   }
 
   render() {
-    console.log(this.state.data)
     return (
-        <div className="Cars">
-          <p></p>
-        </div>
+          <Grid fluid={true} className="Cars">
+            {this.state.cars.map(function(currentCar) {
+              return <Car car={currentCar} key={currentCar["Car"]}/>
+            })}
+          </Grid>
     );
   }
 }

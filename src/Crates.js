@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component } from 'react';
 import { Grid, Col, Row, Clearfix } from 'react-bootstrap';
 import Search from './Search.js'
@@ -14,7 +15,7 @@ TO DO:
   render() {
     return (
         <Grid className="Crate-body" fluid={true}>
-          <h1 sm={0} md={0}>click on crate to view contents</h1>
+          <h1>click on crate to view contents</h1>
           <Col sm={16} md={16}>
             <img src={require('./img/cc1/cc1.png')} role="navigation" />
           </Col>
