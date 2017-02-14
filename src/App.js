@@ -12,19 +12,17 @@ class App extends Component {
         <div className="App-header">
           <img className="Banner" src={require('./img/RL-Banner2.png')} role="presentation" />
         </div>
-        <div className="Tabs">
-          <Tabs id="TabManager">
-            <Tab eventKey={1} title="Find a player">
-              <Search/>
-            </Tab>
-            <Tab eventKey={2} title="Car stats">
-              <Cars/>
-            </Tab>
-            <Tab eventKey={3} title="Crate stats">
-              <Crates/>
-            </Tab>
-          </Tabs>
-        </div>
+        <Tabs id="TabManager" className="Tabs">
+          <Tab eventKey={1} title="Find a player">
+            <Search/>
+          </Tab>
+          <Tab eventKey={2} title="Car stats">
+            <Cars/>
+          </Tab>
+          <Tab eventKey={3} title="Crate stats">
+            <Crates/>
+          </Tab>
+        </Tabs>
       </div>
     );
   }

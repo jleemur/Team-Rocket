@@ -51,6 +51,7 @@ class Cars extends Component {
   render() {
     return (
           <Grid fluid={true} className="Cars">
+            <br/>
             {this.state.cars.map(function(currentCar) {
               return <Car car={currentCar} key={currentCar["Car"]}/>
             })}
