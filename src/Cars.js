@@ -43,7 +43,7 @@ class Cars extends Component {
     return cars
   }
 
-  orderBy(string) {
+  orderCarsBy(string) {
     this.state.cars.sort(function (a,b) {
       return a[string] - b[string]
     })
@@ -53,14 +53,14 @@ class Cars extends Component {
   render() {
     var orderButtons = (
       <ButtonGroup>
-        <Button onClick={() => this.orderBy("Num")}>Name</Button>
-        <Button onClick={() => this.orderBy("Length Rank")}>Length</Button>
-        <Button onClick={() => this.orderBy("Width Rank")}>Width</Button>
-        <Button onClick={() => this.orderBy("Height Rank")}>Height</Button>
-        <Button onClick={() => this.orderBy("Surface Area Rank")}>Surface Area</Button>
-        <Button onClick={() => this.orderBy("Turning Avg Rank")}>Turning Avg</Button>
-        <Button onClick={() => this.orderBy("Turning 0 Rank")}>Turning 0</Button>
-        <Button onClick={() => this.orderBy("Turning 100 Rank")}>Turning 100</Button>
+        <Button onClick={() => this.orderCarsBy("Num")}>Name</Button>
+        <Button onClick={() => this.orderCarsBy("Length Rank")}>Length</Button>
+        <Button onClick={() => this.orderCarsBy("Width Rank")}>Width</Button>
+        <Button onClick={() => this.orderCarsBy("Height Rank")}>Height</Button>
+        <Button onClick={() => this.orderCarsBy("Surface Area Rank")}>Surface Area</Button>
+        <Button onClick={() => this.orderCarsBy("Turning Avg Rank")}>Turning Avg</Button>
+        <Button onClick={() => this.orderCarsBy("Turning 0 Rank")}>Turning 0</Button>
+        <Button onClick={() => this.orderCarsBy("Turning 100 Rank")}>Turning 100</Button>
       </ButtonGroup>
     )
 
