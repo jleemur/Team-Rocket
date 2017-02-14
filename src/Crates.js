@@ -16,22 +16,22 @@ TO DO:
     return (
         <Grid className="Crate-body" fluid={true}>
           <h1>click on crate to view contents</h1>
-          <Col sm={16} md={16}>
+          <Col md={6}>
             <img src={require('./img/cc1/cc1.png')} role="navigation" />
+            <Clearfix>Champions Crate 1</Clearfix>
           </Col>
-          <Clearfix>Champions Crate 1</Clearfix>
-          <Col sm={16} md={16}>
+          <Col md={6}>
             <img src={require('./img/cc2/cc2.png')} role="presentation" />
+            <Clearfix>Champions Crate 2</Clearfix>
           </Col>
-          <Clearfix>Champions Crate 2</Clearfix>
-          <Col sm={16} md={16}>
+          <Col md={6}>
             <img src={require('./img/cc3/cc3.png')} role="presentation" />
+            <Clearfix>Champions Crate 3</Clearfix>
           </Col>
-          <Clearfix>Champions Crate 3</Clearfix>
-          <Col sm={16} md={16}>
+          <Col md={6}>
             <img src={require('./img/cc4/cc4.png')} role="presentation" />
+            <Clearfix>Champions Crate 4</Clearfix>
           </Col>
-          <Clearfix>Champions Crate 4</Clearfix>
         </Grid>
     );
   }
