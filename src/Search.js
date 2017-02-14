@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
 class Search extends Component {
-  //Self-note: pls learn what this does
+  //Jon: pls learn what this does
   constructor(props) {
     super(props)
     this.state = {value: ""}
 
+    //Jon: why do we bind this??
     this.handleChange = this.handleChange.bind(this);
   }
 
