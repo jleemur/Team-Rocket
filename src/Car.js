@@ -12,6 +12,7 @@ class Car extends Component {
             <p>Width: {this.props.car["Width"]}</p>
             <p>Height: {this.props.car["Height"]}</p>
             <p>Surface Area: {this.props.car["Surface Area"]}</p>
+            <p>Turning Average: {this.props.car["Turning Avg"]}</p>
             <p>Turning without boost: {this.props.car["Turning 0"]}</p>
             <p>Turning with boost: {this.props.car["Turning 100"]}</p>
           </Panel>
